@@ -28,7 +28,7 @@ def sendEmail(file):
     body = "Steam games are attached"
     sender_email = "mbednarski216@gmail.com"
     receiver_email = "bednarskimat@sehs.net"
-    password = 'Velocity720'
+    password = ''
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = receiver_email
